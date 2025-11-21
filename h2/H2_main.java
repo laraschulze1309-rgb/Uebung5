@@ -12,9 +12,9 @@ public class H2_main {
             digits = 1;
         } else {
             while (temp > 0) {
-                temp /= 10;
+                temp /= 10; 
                 digits++;
-            }
+               }
         }
 
         temp = n;
